@@ -1,0 +1,33 @@
+[books]
+enable = true
+title = "Books"
+subtitle = "Some random books I've read in the past that have stuck with me."
+
+  [[books.book]]
+  title = "The Subtle Art of Not Giving a F*ck"
+  author = "Mark Manson"
+  image = "img/books/subtle-art.jpg"
+  link = "https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck"
+
+  [[books.book]]
+  title = "The Girl on the Train"
+  author = "Paula Hawkins"
+  image = "img/books/the-girl-on-the-train-film.jpg"
+  link = "https://www.goodreads.com/book/show/22557272-the-girl-on-the-train"
+
+  [[books.book]]
+  title = "Rich Dad Poor Dad"
+  author = "Robert Kiyosaki and Sharon Lechter"
+  image = "img/books/rich-dad-poor-dad.jpg"
+  link = "https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad"
+
+  [[books.book]]
+  title = "The Art of War"
+  author = "Sun Tzu"
+  image = "img/books/art-of-war.jpg"
+  link = "https://www.goodreads.com/book/show/10534.The_Art_of_War"
+
+[tools]
+enable = true
+title = "Tools"
+subtitle = "I'll make a list soon with tools that help developers in their workflow."

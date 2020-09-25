@@ -1,0 +1,47 @@
+[notes]
+other = "Notite"
+
+[site-title]
+other = "Bogdan Miret - Full Stack Web Developer"
+
+[posted-to]
+other = "Acest articol a fost publicat de catre: "
+
+[twitter-share]
+other = "Ți-a plăcut acest articol? Da-i share pe Twitter!"
+
+[thisProjectUsed]
+other = "Folosit pentru acest proiect:"
+
+[projectClient]
+other = "Client :"
+
+[email]
+other = "E-mail"
+
+[phone]
+other = "Telefon"
+
+[siteDescription]
+other = "Sunt Full Stack Web Developer din Braşov. Lucrez pe frontend si backend, cu instrumente moderne precum Laravel, Symfony, VueJS si Wordpress."
+
+[viewProject]
+other = "Vezi proiectul"
+
+[notFoundTitle]
+other = "404 - Pagina nu a fost găsită"
+
+[notFoundContent]
+other = "Se pare că pagina solicitată nu mai există sau a fost ștersă."
+
+[notFoundPlus]
+other = "Dacă doriți, puteți consulta câteva dintre <a href=\"/projects\"> proiectele mele </a>, citiți mai multe <a href=\"/about\"> despre mine </a> sau citiți < a href = \"/blog\"> blogul meu </a>."
+
+[visitWebsite]
+other = "Viziteaza site-ul"
+
+[readmore]
+other = "Citeste mai mult..."
+
+[lastPost]
+other = "Ultima postare de pe blog:"

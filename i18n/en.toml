@@ -1,0 +1,47 @@
+[notes]
+other = "Notes"
+
+[site-title]
+other = "Bogdan Miret - Full Stack Web Developer"
+
+[posted-to]
+other = "This article has also been posted to:"
+
+[twitter-share]
+other = "Did you like this article? Share it on Twitter!"
+
+[thisProjectUsed]
+other = "Used for this project:"
+
+[projectClient]
+other = "Client:"
+
+[email]
+other  = "Email"
+
+[phone]
+other = "Phone"
+
+[siteDescription]
+other = "I am a Full Stack Web Developer based in Brasov, Romania. I do frontend and backend work, on large and modern frameworks such as Laravel, Symfony, VueJS and Wordpress."
+
+[viewProject]
+other = "View project"
+
+[notFoundTitle]
+other = "404 - Page Not Found"
+
+[notFoundContent]
+other = "It looks like the page you're looking either does not exist or has been removed."
+
+[notFoundPlus]
+other = "If you wish, you can read more <a href=\"/about\">about me</a>."
+
+[visitWebsite]
+other = "Visit the website"
+
+[readmore]
+other = "Read more..."
+
+[lastPost]
+other = "Latest post from the blog:"

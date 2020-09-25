@@ -1,0 +1,49 @@
+[[en]]
+    [[en.menu]]
+        [[en.menu.main]]
+        name = "Home"
+        identifier = "home"
+        weight = 100
+        url = "/"
+        [[en.menu.main]]
+        name = "About"
+        weight = 200
+        identifier = "about"
+        url = "/about/"
+
+        [[en.menu.main]]
+        name = "Projects"
+        weight = 300
+        identifier = "projects"
+        url = "/projects/"
+
+        [[languages.en.menu.main]]
+        name = "Blog"
+        weight = 400
+        identifier = "blog"
+        url = "/blog/"
+[[fr]]
+    [[fr.menu]]
+        [[fr.menu.main]]
+        name = "Home"
+        identifier = "home"
+        weight = 100
+        url = "/"
+
+        [[fr.menu.main]]
+        name = "About"
+        weight = 200
+        identifier = "about"
+        url = "/about/"
+
+        [[fr.menu.main]]
+        name = "Projects"
+        weight = 300
+        identifier = "projects"
+        url = "/projects/"
+
+        [[fr.menu.main]]
+        name = "Blog"
+        weight = 400
+        identifier = "blog"
+        url = "/blog/"

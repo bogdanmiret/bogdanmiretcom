@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proiecte on Full Stack Web Developer</title>
+    <link>https://bogdanmiretcom.web.app/ro/projects/</link>
+    <description>Recent content in Proiecte on Full Stack Web Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Everything is mine</copyright>
+    <lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://bogdanmiretcom.web.app/ro/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lorem ipsum</title>
+      <link>https://bogdanmiretcom.web.app/ro/projects/healthy-warriors/</link>
+      <pubDate>Mon, 22 Jan 2018 15:10:56 +0100</pubDate>
+      
+      <guid>https://bogdanmiretcom.web.app/ro/projects/healthy-warriors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lorem ipsum</title>
+      <link>https://bogdanmiretcom.web.app/ro/projects/pacman/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bogdanmiretcom.web.app/ro/projects/pacman/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+{{ partial "head.html" . -}}
+
+{{ partial "navbar.html" . -}}
+
+{{- partial "navbar-elements.html" . -}}
+
+<main id="main" class="misc">
+    <!-- banner -->
+    <section class="banner bg-cover">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h1 class="display-4 my-5 my-lg-6 pb-lg-4 text-center">{{ if not .IsHome }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /banner -->
+
+    <!-- Books -->
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+    {{ if $data.misc.books.enable }}
+    {{ with $data.misc.books }}
+    <section class="section books" id="books">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-heading text-center">
+                        <h2 class="text-lg">{{ .title | markdownify }}</h2>
+                        <p>{{ .subtitle | markdownify }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                {{ range .book }}
+                <div class="book-item">
+                    <div class="mb-4 mb-lg-0 text-center">
+                        <img src="{{ .image | relURL }}" alt="{{ .title }}" class="img-fluid">
+                        <a href="{{ .link | safeURL }}" class="hover-item" target="_blank" rel="nofollow">
+                            <i class="fa fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    {{ end }}
+    {{ end }}
+
+    <!-- Tools -->
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+    {{ if $data.misc.tools.enable }}
+    {{ with $data.misc.tools }}
+    <section class="section tools" id="tools">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-heading text-center">
+                        <h2 class="text-lg">{{ .title | markdownify }}</h2>
+                        <p>{{ .subtitle | markdownify }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    {{ end }}
+    {{ end }}
+
+</main>
+
+{{ partial "footer.html" . -}}
